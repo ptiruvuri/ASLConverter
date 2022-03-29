@@ -1,0 +1,25 @@
+#wrapper{float: left; width: calc(100% - 380px); min-height: 270px !important; margin: 5px; padding: 5px;}
+
+.sourceLabel{font-weight: bold; font-size: large;}
+
+#srcText{background: #ddd; width: 100%; padding: 10px;}
+
+.convertBtnDiv{margin: 10px 10px 10px 0px;}
+
+#signLangContainer {background: #ddd; border-radius: 10px; border: 1px solid #ccc;}
+
+#signSentanceContainer { border-radius: 5px; }
+
+.signWordContainer{background: lightyellow; display: inline-block; margin: 10px 20px 10px 5px; padding: 5px; border: 1px solid #ccc;}
+
+.englishWord{background: grey; color:#fff; padding: 0 5px; margin-bottom: 5px; font-size:30px !important}
+
+.signLetterOLD{display: inline-block; font-family: wecapableSIGN; font-size: 110px; line-height: 80px; text-align: center; padding: 2px;}
+.signLetter{font-size: 110px; line-height: 60px; text-align: center; padding: 2px;}
+
+.title{
+    margin-left: 400px;
+    margin-top: 10px;
+	font-size:30px;
+	font-weight:bold;
+}

@@ -1,0 +1,35 @@
+.box {
+    border: solid 1px #ddd;
+    border: solid 1px ;
+    margin-top: 16px;
+    background-color: #ffffff;
+    background-color: white;
+}
+
+.box + .box#toc {
+    margin-top: 0;
+    border-top: 0;
+}
+
+.box.box-space-above {
+    margin-top: 90px;
+}
+
+.box-h {
+    padding: 8px 16px;
+    color: #005A6A;
+    color: green;
+}
+
+@media print {
+
+    .box-h {
+        color: #000
+    }
+}
+
+.box-h {
+    font-weight: bold;
+    background-color: #f2f2f2;
+    background-color: white;
+}
